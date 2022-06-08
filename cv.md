@@ -21,4 +21,4 @@ alert( result );
 ## **Education**
 * JavaScript (https://learn.javascript.ru/)
 ## **Languages**
-* Egglish B2
+* English B2
