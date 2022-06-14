@@ -4,15 +4,6 @@ body {
 * {
   box-sizing: border-box;
 }
-header {
-  border: 1px solid red;
-}
-main {
-  border: 1px solid red;
-}
-footer {
-  border: 1px solid red;
-}
 body {
   min-height: 100vh;
   margin: 0; padding: 0;
@@ -25,11 +16,22 @@ body {
   margin: 0 auto;
 }
 .nav-list {
-  color: red;
+  list-style: none;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 html {
   scroll-behavior: smooth;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: .3s;
+  color:darkolivegreen;
+}
+a:hover {
+  color:darkorchid; 
 }
