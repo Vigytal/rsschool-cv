@@ -1,15 +1,67 @@
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 24px;
 }
+
 * {
   box-sizing: border-box;
 }
+
 body {
   min-height: 100vh;
-  margin: 0; padding: 0;
+  background-color: #E5E5E5;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.container {
+  max-width: 1220px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 30px 50px;
+  background-color: white;
+}
+
+.photo {
+  border-radius: 50%;
+  width: auto;
+  max-width: 100%;
+}
+
+.profile__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  margin: 0;
+  color: #97A6B9;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 140%;
+}
+
+.job__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.block__item {
+  border-bottom: groove;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+  max-width: 100%;
 }

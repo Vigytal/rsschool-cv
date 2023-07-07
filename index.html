@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link href="./img/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
+    <title>CV</title>
 </head>
-<body>
-    Vital Yefimchyk
+
+<body class="body">
+    <div class="container">
+        <header class="header">
+            <img class="photo" src="../img/photo.png" alt="profile-photo">
+            <div class="profile__title">
+                <h1 class="name">Vital Yefimchyk</h1>
+                <h3 class="job__title">Front-End Developer</h3>
+            </div>
+        </header>
+        <main class="main">
+            <div class="block__item">
+                <h2>Contacts</h2>
+                <nav>
+                    <ul class="contacts__list">
+                        <li class="contact__item">Email: <a href="mailto:vigytal@gmail.com">vigytal@gmail.com</a></li>
+                        <li class="contact__item">Phone: <a class="link text__general" href="tel:+375293844933">+375
+                                (29)
+                                384-49-33</a></li>
+                        <li class="contact__item">GitHub:
+                            <a class="github__link" href="https://github.com/Vigytal" target="_blank">Vigytal</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="block__item">
+                <h2>About me</h2>
+                <p>I am passionate about learning new technologies and would like to become a front-end developer. I
+                    have good interpersonal skills and am well organized.</p>
+            </div>
+            <div class="block__item">
+                <h2>Skills</h2>
+                <ul class="skills__list">
+                    <li class="skill__item">Git/GitHub</li>
+                    <li class="skill__item">JavaScript (Basic)</li>
+                    <li class="skill__item">HTML</li>
+                    <li class="skill__item">CSS</li>
+                </ul>
+            </div>
+            <div class="block__item">
+                <h2>Code Example</h2>
+                <p>
+                    <code>
+                        function multiply(a, b) {<br>
+                            return a * b;<br>
+                          }<br>
+                          let result = multiply(1, 2);<br>
+                          alert( result );<br>
+                    </code>
+                </p>
+            </div>
+            <div class="block__item">
+                <h2>Projects</h2>
+                <p>
+                    <a href="https://online-zoo-site.netlify.app/" target="_blank">Online Zoo</a>
+                </p>
+            </div>
+            <div class="block__item">
+                <h2>Education</h2>
+                <p>
+                    <a href="https://learn.javascript.ru/" target="_blank">JavaScript (https://learn.javascript.ru/)</a>
+                </p>
+            </div>
+            <div class="block__item">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English B2</li>
+                    <li>German A2</li>
+                    <li>Polish A2</li>
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="github__link">Github:
+                <a class="github__link" href="https://github.com/Vigytal" target="_blank">Vigytal</a>
+            </p>
+            <p>2023</p>
+            <p>
+                <a href="https://rs.school/js/" target="_blank">
+                    <img class="logo" src="../img/rs_school_js.svg" alt="logo__icon">
+                </a>
+            </p>
+        </footer>
+    </div>
 </body>
+
 </html>
