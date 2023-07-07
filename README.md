@@ -1,1 +1,1 @@
-https://Vigytal.github.io/rsschool-cv/
+https://Vigytal.github.io/rsschool-cv/cv
